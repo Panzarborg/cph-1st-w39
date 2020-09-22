@@ -54,7 +54,10 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 
 # Early birds
 If you finished these exercises and would like to practice even further, you can have a look at:
+
 https://codingbat.com/java
+
 https://www.codecademy.com/catalog/language/java
+
 https://www.hackerrank.com/domains/java
 
