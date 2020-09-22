@@ -20,39 +20,28 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
     for every step in the for loop, you must compare the values of array[i] and array[i + 1] and swap them if [i] is greater than [i + 1]. 
 1.c call the method created in 1.b in a while loop from setup(), until the list is sorted. Add a boolean to keep track of when the list is sorted to avoid creating an infinite loop. 
 
-## Task 2 (Debugging ? ):
+## Task 2 (Debugging):
 In the directory above named "Debugging", there are 10 different small sketches, each of which containing some kind of error. For each of the sketches, try to run it firstly, then have a look at the output and afterwards fix the error. You're done with the sketch, once it prints "Job's done". 
 
 
-## Task 3 (Libraries ?)
-Importér et eller andet library og brug det. Dats it. (evt. array.sort ?)
+## Task 3 (Libraries)
 3.a Sort the array:      
     int[] myArray = { 1, 6423, 64, 6, 3, 123, 61, 6, 36, 1236, 347, 3, 1326, 246, 4 };
 by importing java.util.Arrays and use the Array.sort() method on it. Then use the printArray() method to print it. 
-xqaz
+
 
 ## Task 4 (Mathematics):
+4.a Write a method that takes in an integer as a parameter and returns all values between 0 and 100 that are divisible by the parameter received. 
+
+4.b add the following array to your code: int[] arr = { 1, 1, 1, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10 }
+
+4.c Write a method that returns a random element from the above array.
+4.d Write a method that takes in the above array as a parameter, and prints what the probability is, of getting each number when calling the method written in 4.c. 
 
 
-   COLLISION ? 
-
-   
+4.e Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
 
 
-Modulus at last
-Random Numbers
-Propability
-event prop in code ?? 
-Perlin Noise?? 
-Angles? 
-Trigonometry? 
-Oscillation?
-
-Recursion?
-Two-Dimensional Arrays
-
-
-///-----------------
 ## Task 5: Draw a chess board using a nested for loop and a double int array. 
 In this task you will create an integer array with 2 dimensions, that holds values of 0, 1, 0, 1, etc. The instructions below will help you get started. What has been left out, is how to assign the alternating value of 0's and 1's. 
 
