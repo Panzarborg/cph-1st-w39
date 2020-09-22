@@ -52,8 +52,9 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 5.e Before drawing the rect in the previous step, add a fill() statement, that fills with the value of 0 if the board[x][y] == 0. 
 
 
-# Early birds
-If you finished these exercises and would like to practice even further, you can have a look at:
+# Other exercises (optional)
+If you got stuck or if you finished the above, following are 3 links to exercises, where there is something for all levels.
+
 
 https://codingbat.com/java
 
