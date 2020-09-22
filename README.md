@@ -36,12 +36,10 @@ by importing java.util.Arrays and use the Array.sort() method on it. Then use th
 4.b add the following array to your code: int[] arr = { 1, 1, 1, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10 }
 
 4.c Write a method that returns a random element from the above array.
-4.d Write a method that takes in the above array as a parameter, and prints what the probability is, of getting each number when calling the method written in 4.c. 
 
+4.d Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
 
-4.e Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
-
-4.f Write a function that takes two integers as parameters and prints both of them seperated by a tab ( \\t ). Then have the function calculate and print the fibunacci sequence by calling itself. If the input is greater than 10000, then stop. Start the function by calling it from setup with the input (1, 1).
+4.e Write a function that takes two integers as parameters and prints both of them seperated by a tab ( \\t ). Then have the function calculate and print the fibunacci sequence by calling itself. If the input is greater than 10000, then stop. Start the function by calling it from setup with the input (1, 1).
 
 
 ## Task 5: Draw a chess board using a nested for loop and a double int array. 
@@ -52,3 +50,11 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 5.c In setup() create a double for loop that loops through the board and alternates between assigning the value of 0 and 1 (e.g. board[x][y] = 0;). 
 5.d In draw() create a double for loop that loops through the board and draws a rect for each element with the sideLength of 40 (e.g. rect(x * sideLength, y * sideLength, sideLength, sideLength); )
 5.e Before drawing the rect in the previous step, add a fill() statement, that fills with the value of 0 if the board[x][y] == 0. 
+
+
+# Early birds
+If you finished these exercises and would like to practice even further, you can have a look at:
+https://codingbat.com/java
+https://www.codecademy.com/catalog/language/java
+https://www.hackerrank.com/domains/java
+
