@@ -41,6 +41,8 @@ by importing java.util.Arrays and use the Array.sort() method on it. Then use th
 
 4.e Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
 
+4.f Write a function that takes two integers as parameters and prints both of them seperated by a tab ( \\t ). Then have the function calculate and print the fibunacci sequence by calling itself. If the input is greater than 10000, then stop. Start the function by calling it from setup with the input (1, 1).
+
 
 ## Task 5: Draw a chess board using a nested for loop and a double int array. 
 In this task you will create an integer array with 2 dimensions, that holds values of 0, 1, 0, 1, etc. The instructions below will help you get started. What has been left out, is how to assign the alternating value of 0's and 1's. 
