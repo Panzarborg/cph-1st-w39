@@ -18,7 +18,8 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 1.a Create an integer array with the values { 8, 9, 1, 5, 11, 13, 7, 4, 6, 3, 12, 10, 2 }
 1.b implement your own sorting algorithm for the int[] array, by creating a method that takes in the int[] array and loops through it with a for loop. 
     for every step in the for loop, you must compare the values of array[i] and array[i + 1] and swap them if [i] is greater than [i + 1]. 
-1.c call the method created in 1.b in a while loop from setup(), until the list is sorted. Add a boolean to keep track of when the list is sorted to avoid creating an infinite loop. 
+1.c call the method created in 1.b in a while loop from setup(), until the list is sorted. 
+1.d Add a boolean to keep track of when the list is sorted to avoid creating an infinite loop. 
 
 ## Task 2 (Debugging):
 In the directory above named "Debugging", there are 10 different small sketches, each of which containing some kind of error. For each of the sketches, try to run it firstly, then have a look at the output and afterwards fix the error. You're done with the sketch, once it prints "Job's done". 
@@ -27,11 +28,11 @@ In the directory above named "Debugging", there are 10 different small sketches,
 ## Task 3 (Libraries)
 3.a Sort the array:      
     int[] myArray = { 1, 6423, 64, 6, 3, 123, 61, 6, 36, 1236, 347, 3, 1326, 246, 4 };
-by importing java.util.Arrays and use the Array.sort() method on it. Then use the printArray() method to print it. 
+by importing java.util.Arrays and use the Arrays.sort() method on it. Then use the printArray() method to print it. 
 
 
 ## Task 4 (Mathematics):
-4.a Write a method that takes in an integer as a parameter and returns all values between 0 and 100 that are divisible by the parameter received. 
+4.a Write a method that takes in an integer as a parameter and prints all values between 0 and 100 that are divisible by the parameter received. 
 
 4.b add the following array to your code: int[] arr = { 1, 1, 1, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10 }
 
@@ -40,7 +41,7 @@ by importing java.util.Arrays and use the Array.sort() method on it. Then use th
 4.d Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
 
 4.e Write a function that takes two integers as parameters and prints both of them seperated by a tab ( \\t ). Then have the function calculate and print the fibunacci sequence by calling itself. If the input is greater than 10000, then stop. Start the function by calling it from setup with the input (1, 1).
-
+(hint: fibunacci sequence: https://i.pinimg.com/236x/98/82/d5/9882d569f7e0b5665fe3b2edd5069b06.jpg )
 
 ## Task 5: Draw a chess board using a nested for loop and a double int array. 
 In this task you will create an integer array with 2 dimensions, that holds values of 0, 1, 0, 1, etc. The instructions below will help you get started. What has been left out, is how to assign the alternating value of 0's and 1's. 
