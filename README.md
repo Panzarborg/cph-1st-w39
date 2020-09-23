@@ -56,10 +56,12 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 # Other exercises (optional)
 If you got stuck or if you finished the above, following are 3 links to exercises, where there is something for all levels.
 
+https://codingbat.com/java 
 
-https://codingbat.com/java
+https://www.codecademy.com/catalog/language/java 
+ 
+https://www.hackerrank.com/domains/java 
 
-https://www.codecademy.com/catalog/language/java
+https://edabit.com/ 
 
-https://www.hackerrank.com/domains/java
-
+https://www.programiz.com/java-programming 
