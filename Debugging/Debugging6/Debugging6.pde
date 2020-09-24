@@ -15,7 +15,7 @@ boolean isJobDone()
     return jobsDone;    
 }
 
-int getRandomNumber(int min, int max) 
+float getRandomNumber(int min, int max) 
 {
     return random(min, max);
 }

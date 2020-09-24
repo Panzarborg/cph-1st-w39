@@ -1,4 +1,4 @@
-boolean jobsDone = false;
+boolean jobsDone = true;
 
 void setup()
 {
@@ -7,8 +7,7 @@ void setup()
         println("Job's done!");   
     }
 }
-
-void isJobDone()
+boolean isJobDone()
 {
-    return jobsDone;    
+    return jobsDone;
 }
